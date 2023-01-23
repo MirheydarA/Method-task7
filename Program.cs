@@ -103,8 +103,14 @@ namespace test
         {
             string word = Console.ReadLine();
             string word2 = Console.ReadLine();
-            Lenghtofstring(word);
-            Lenghtofstring2(word2);
+            
+            Lenghtofstring(word, word2);
+          
+
+
+        }
+        static void Lenghtofstring(string word, string word2)
+        {
             if (word.Length == word2.Length)
             {
                 Console.WriteLine("beraberdir");
@@ -119,17 +125,8 @@ namespace test
             {
                 Console.WriteLine(word2);
             }
-
-
         }
-        static void Lenghtofstring(string word)
-        {
-
-        }
-        static void Lenghtofstring2(string word2)
-        {
-
-        }
+       
 
     }
 }
