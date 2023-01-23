@@ -47,7 +47,7 @@
 //                    }
 //                    else
 //                    {
-//                        Console.WriteLine();   
+//                        Console.WriteLine(n);   
 //                    }
 //            }
 //        }
